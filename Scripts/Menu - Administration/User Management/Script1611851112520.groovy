@@ -39,7 +39,7 @@ Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStat
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - User Management'), 0)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.tap(findTestObject(''), 0) //
 
 Mobile.tap(findTestObject(''), 0)
 

@@ -34,7 +34,7 @@ Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButt
 Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSecureTextField -  (2)'), '123456789012', 
     0)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.tap(findTestObject(''), 0) //
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - LOGIN (70)'), 0)
 

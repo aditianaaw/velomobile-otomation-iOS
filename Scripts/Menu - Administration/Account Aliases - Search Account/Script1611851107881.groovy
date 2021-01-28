@@ -66,3 +66,4 @@ Mobile.tap(findTestObject(''), 0)
 
 Mobile.closeApplication()
 
+//

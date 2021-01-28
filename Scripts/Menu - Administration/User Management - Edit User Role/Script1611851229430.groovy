@@ -41,7 +41,7 @@ Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStat
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - User Management'), 0)
 
-Mobile.delay(5)
+Mobile.delay(5) //
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeWindow (35)'), 0)
 

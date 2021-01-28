@@ -29,7 +29,7 @@ Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButt
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - LOGIN (64)'), 0)
 
-Mobile.delay(10)
+Mobile.delay(10) //
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeWindow (32)'), 0)
 
