@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suites All Transaksi,,,,2021-02-01 15:22:39,2021-02-01 15:24:36,1m - 57.131s,FAILED
+,,,,,,,
+Test Cases/Menu - Transaction/Scenario/Test Automation Overbooking IDR - IDR,,,,2021-02-01 15:22:39,2021-02-01 15:24:36,1m - 56.994s,FAILED
+"callTestCase(findTestCase(""Login/Test Automation Login Existing""), [:], STOP_ON_FAILURE)",,,,2021-02-01 15:22:39,2021-02-01 15:24:05,1m - 25.857s,PASSED
+"callTestCase(findTestCase(""Menu - Transaction/Fund Transfer/OCBC NISP Fund Transfer/Test Automation Overbooking IDR - IDR""), [:], STOP_ON_FAILURE)",,,,2021-02-01 15:24:05,2021-02-01 15:24:36,31.000s,FAILED

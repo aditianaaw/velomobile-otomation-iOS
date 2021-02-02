@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButt
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - LOGIN (86)'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSecureTextField - Input Password (44)'), 
-    '123456789012', 0)
+    'Testing1', 0)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (56)'), 0)
 
@@ -36,6 +36,8 @@ Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeWind
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeImage (66)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Transactions (5)'), 0)
+
+Mobile.delay(10)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Fund Transfer (3)'), 0)
 

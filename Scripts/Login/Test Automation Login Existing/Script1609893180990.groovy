@@ -14,4 +14,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication(GlobalVariable.G_iOSApp, false)
+
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - Not Now (9)'), GlobalVariable.G_Timeout)
+
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - LOGIN (14)'), GlobalVariable.G_Timeout)
+
+Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSecureTextField - Input Password (9)'), 
+    GlobalVariable.G_Password, GlobalVariable.G_Timeout)
+
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - LOGIN (15)'), GlobalVariable.G_Timeout)
+
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (11)'), GlobalVariable.G_Timeout)
+
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - LOGIN (16)'), GlobalVariable.G_Timeout)
+
+Mobile.delay(15)

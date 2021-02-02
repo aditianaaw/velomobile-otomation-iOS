@@ -148,7 +148,8 @@ Mobile.delay(10)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSearchField - Type here to search (9)'), 0)
 
-Mobile.setText(findTestObject(''), 'fredy', 0)
+Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSearchField - Type here to search (6)'), 
+    'FREDY', 0)
 
 Mobile.delay(5)
 

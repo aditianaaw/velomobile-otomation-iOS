@@ -16,36 +16,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/admin2/Downloads/Velocity_bandung_uat (5).ipa', false)
+Mobile.startApplication(GlobalVariable.G_iOSApp, false)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - Not Now (9)'), 0)
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - Not Now (9)'), GlobalVariable.G_Timeout)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - LOGIN (14)'), 0)
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - LOGIN (14)'), GlobalVariable.G_Timeout)
 
 Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSecureTextField - Input Password (9)'), 
-    '123456789012', 0)
+    '123456789012', GlobalVariable.G_Timeout)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - LOGIN (15)'), 0)
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - LOGIN (15)'), GlobalVariable.G_Timeout)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (11)'), 0)
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (11)'), GlobalVariable.G_Timeout)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - LOGIN (16)'), 0)
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - LOGIN (16)'), GlobalVariable.G_Timeout)
 
 Mobile.delay(35)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - ic eye hide (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - ic eye hide (1)'), GlobalVariable.G_Timeout)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - ic eye open (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - ic eye open (1)'), GlobalVariable.G_Timeout)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - ic refresh (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - ic refresh (1)'), GlobalVariable.G_Timeout)
 
-Mobile.tap(findTestObject('Velocity Mobile/XCUIElementTypeWindow (1)'), 0)
+Mobile.tap(findTestObject('Velocity Mobile/XCUIElementTypeWindow (1)'), GlobalVariable.G_Timeout)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - FUTURE TRANSACTIONS'), 0)
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - FUTURE TRANSACTIONS'), GlobalVariable.G_Timeout)
 
 Mobile.delay(15)
 
-Mobile.tap(findTestObject('Velocity Mobile/XCUIElementTypeWindow (1)'), 0)
+Mobile.tap(findTestObject('Velocity Mobile/XCUIElementTypeWindow (1)'), GlobalVariable.G_Timeout)
 
 'Get Device Height and Store in device_height variable'
 

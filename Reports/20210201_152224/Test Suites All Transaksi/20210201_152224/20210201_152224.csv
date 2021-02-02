@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suites All Transaksi,,,,2021-02-01 15:22:31,2021-02-01 15:22:32,0.861s,FAILED
+,,,,,,,
+Test Cases/Menu - Transaction/Scenario/Test Automation Overbooking IDR - IDR,,,,2021-02-01 15:22:31,2021-02-01 15:22:32,0.710s,FAILED
+"callTestCase(findTestCase(""Login/Test Automation Login Existing""), [:], STOP_ON_FAILURE)",,,,2021-02-01 15:22:32,2021-02-01 15:22:32,0.582s,FAILED

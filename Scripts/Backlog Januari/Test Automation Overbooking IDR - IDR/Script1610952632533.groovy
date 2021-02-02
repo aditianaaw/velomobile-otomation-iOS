@@ -53,9 +53,20 @@ Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeWind
 Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSearchField - Type here to search (6)'), 
     'FREDY', 0)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - FREDY IRAWAN  S Komp (3)'), 0)
+//Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - FREDY IRAWAN  S Komp (3)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - 10810088368 DAN Roby (3)'), 0)
+//Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - 10810088368 DAN Roby (3)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeCell (12)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSearchField - Type here to search (16)'),
+	'Rani iOS', 0)
+
+Mobile.delay(3)
+
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeWindow (45)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeCell (13)'), 0)
 
 Mobile.delay(10)
 
