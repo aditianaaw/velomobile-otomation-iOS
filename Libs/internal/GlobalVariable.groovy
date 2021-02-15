@@ -104,6 +104,16 @@ public class GlobalVariable {
      */
     public static Object G_OT_BCredit
      
+    /**
+     * <p></p>
+     */
+    public static Object G_RTGS_BCabang
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_LLG_BCabang
+     
 
     static {
         try {
@@ -130,6 +140,8 @@ public class GlobalVariable {
             G_LLG_BCredit = selectedVariables['G_LLG_BCredit']
             G_OT_Credit = selectedVariables['G_OT_Credit']
             G_OT_BCredit = selectedVariables['G_OT_BCredit']
+            G_RTGS_BCabang = selectedVariables['G_RTGS_BCabang']
+            G_LLG_BCabang = selectedVariables['G_LLG_BCabang']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

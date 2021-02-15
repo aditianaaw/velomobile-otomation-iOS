@@ -99,4 +99,14 @@
       <initValue>'BANK NUSANTARA PARAHYANGAN'</initValue>
       <name>G_OT_BCredit</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'MALANG'</initValue>
+      <name>G_RTGS_BCabang</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'MALANG'</initValue>
+      <name>G_LLG_BCabang</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
