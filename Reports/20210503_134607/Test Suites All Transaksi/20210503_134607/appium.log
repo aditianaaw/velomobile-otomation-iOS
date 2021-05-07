@@ -1,0 +1,29 @@
+[35m[Appium][39m Welcome to Appium v1.20.2
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 62688
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: /var/folders/qg/q2x28s4j46161d4jd3z_3sh40000gr/T//Katalon/Appium/Temp1620024382709
+[35m[Appium][39m   chromedriverPort: 62689
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 62689
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:62688
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/admin2/Downloads/Velocity Mobile (2)","noReset":true,"deviceName":"iPhone","fullReset":false,"wdaLocalPort":62649,"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"14.4","automationName":"XCUITest","waitForAppScript":"true;","platformName":"iOS","udid":"00008020-000A0C383C69002E"},"capabilities":{"firstMatch":[{"appium:app":"/Users/admin2/Downloads/Velocity Mobile (2)","appium:automationName":"XCUITest","appium:deviceName":"iPhone","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platformName":"ios","appium:platformVersion":"14.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:udid":"00008020-000A0C383C69002E","appium:waitForAppScript":"true;","appium:wdaLocalPort":62649}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.20.2 creating new XCUITestDriver (v3.33.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: 71e073ac-3694-449b-9030-4d9880c3c25c
+[35m[XCUITest][39m Determining device to run tests on: udid: '00008020-000A0C383C69002E', real device: true
+[35m[DevCon Factory][39m Releasing connections for 00008020-000A0C383C69002E device on any port number
+[35m[DevCon Factory][39m No cached connections have been found
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m780 ms - 937[39m
+[35m[HTTP][39m [90m[39m

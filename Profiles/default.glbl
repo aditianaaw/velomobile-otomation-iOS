@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/Users/admin2/Downloads/Velocity_bandung_uat (5).ipa'</initValue>
+      <initValue>'/Users/admin2/Downloads/Velocity Mobile (2).ipa'</initValue>
       <name>G_iOSApp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ARIES-X1'</initValue>
+      <initValue>'AUTH2'</initValue>
       <name>G_Usr_ID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

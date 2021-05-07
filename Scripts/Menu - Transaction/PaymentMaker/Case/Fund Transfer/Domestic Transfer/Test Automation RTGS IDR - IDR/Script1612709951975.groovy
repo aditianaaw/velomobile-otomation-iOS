@@ -37,7 +37,8 @@ Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeImag
 
 Mobile.delay(5)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Transactions (4)'), 0)
+//Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Transactions (4)'), 0)
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton (23)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Fund Transfer (2)'), 0)
 

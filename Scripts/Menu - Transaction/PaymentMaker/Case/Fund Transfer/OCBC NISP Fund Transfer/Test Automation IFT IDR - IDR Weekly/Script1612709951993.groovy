@@ -22,7 +22,8 @@ Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeImag
 
 Mobile.delay(10)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Transactions (5)'), 0)
+//Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Transactions (5)'), 0)
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton (23)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Fund Transfer (3)'), 0)
 
@@ -109,7 +110,8 @@ Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButt
 
 Mobile.delay(10)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Transactions (5)'), 0)
+//Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Transactions (5)'), 0)
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton (23)'), 0)
 
 Mobile.delay(10)
 

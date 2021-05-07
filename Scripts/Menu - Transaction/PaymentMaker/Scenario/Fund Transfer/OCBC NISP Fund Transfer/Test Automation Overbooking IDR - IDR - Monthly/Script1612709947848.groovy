@@ -17,9 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login/Test Automation Login Existing'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('null'), 
+WebUI.callTestCase(findTestCase('Menu - Transaction/PaymentMaker/Case/Fund Transfer/OCBC NISP Fund Transfer/Test Automation Overbooking IDR - IDR - Monthly'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Login/Test Automation LogOut'), [:], FailureHandling.STOP_ON_FAILURE)
-
 

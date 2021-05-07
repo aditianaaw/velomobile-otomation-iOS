@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suites All Transaksi" time="102.93" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suites All Transaksi" tests="1" failures="0" errors="0" time="102.93" timestamp="2021-05-03 10:59:39" hostname="admin2 - 192.168.43.6" id="Test Suites/Test Suites All Transaksi">
+      <properties>
+         <property name="deviceName" value="iPhone"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin2/Katalon Studio/Automation Test Velocity Mobile on ios/Reports/20210503_105921/Test Suites All Transaksi/20210503_105921"/>
+         <property name="logFiles" value="/Users/admin2/Katalon Studio/Automation Test Velocity Mobile on ios/Reports/20210503_105921/Test Suites All Transaksi/20210503_105921/execution0.log, /Users/admin2/Katalon Studio/Automation Test Velocity Mobile on ios/Reports/20210503_105921/Test Suites All Transaksi/20210503_105921/appium.log, /Users/admin2/Katalon Studio/Automation Test Velocity Mobile on ios/Reports/20210503_105921/Test Suites All Transaksi/20210503_105921/appium-proxy-server.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin2 - 192.168.43.6"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.20.2&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="1.20.2"/>
+         <property name="deviceModel" value="iPhone11,8"/>
+         <property name="hostAddress" value="192.168.43.6"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="00008020-000A0C383C69002E"/>
+         <property name="deviceName" value="iPhone"/>
+         <property name="deviceOSVersion" value="14.4"/>
+      </properties>
+      <testcase name="Test Cases/Landing Page/Exchange Rate - Telegraphic Transfer" time="102.672" classname="Test Cases/Landing Page/Exchange Rate - Telegraphic Transfer" status="PASSED">
+         <system-out><![CDATA[2021-05-03 10:59:39 - [TEST_CASE][PASSED] - Test Cases/Landing Page/Exchange Rate - Telegraphic Transfer: Test Cases/Landing Page/Exchange Rate - Telegraphic Transfer
+
+2021-05-03 10:59:40 - [TEST_STEP][PASSED] - startApplication("/Users/admin2/Downloads/Velocity Mobile (2).ipa", true): Started app at: '/Users/admin2/Downloads/Velocity Mobile (2).ipa'
+
+2021-05-03 10:59:50 - [MESSAGE][WARNING] - Failed to start ios_webkit_debug_proxy on default port 27753
+
+2021-05-03 10:59:51 - [MESSAGE][INFO] - Appium server started on port 60,541
+
+2021-05-03 11:00:32 - [MESSAGE][PASSED] - Started app at: '/Users/admin2/Downloads/Velocity Mobile (2).ipa'
+
+2021-05-03 11:00:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeButton - Not Now (59)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeButton - Not Now (59)'
+
+2021-05-03 11:00:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:00:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeButton - Not Now (59)'
+
+2021-05-03 11:00:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Exchange Rate (3)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Exchange Rate (3)'
+
+2021-05-03 11:00:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:00:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Exchange Rate (3)'
+
+2021-05-03 11:00:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeWindow (121)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeWindow (121)'
+
+2021-05-03 11:00:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:00:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeWindow (121)'
+
+2021-05-03 11:00:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-05-03 11:00:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-05-03 11:00:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Telegraphic Transfer (5)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Telegraphic Transfer (5)'
+
+2021-05-03 11:00:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:00:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Telegraphic Transfer (5)'
+
+2021-05-03 11:00:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeWindow (121)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeWindow (121)'
+
+2021-05-03 11:00:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:00:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeWindow (121)'
+
+2021-05-03 11:00:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-03 11:00:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-03 11:00:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeButton - CALCULATE (3)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeButton - CALCULATE (3)'
+
+2021-05-03 11:00:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:00:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeButton - CALCULATE (3)'
+
+2021-05-03 11:00:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeTextField - 0 (1)"), "100", 0): Text '100' has been set to element 'Object Repository/Velocity Mobile/XCUIElementTypeTextField - 0 (1)'
+
+2021-05-03 11:00:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:00:48 - [MESSAGE][PASSED] - Text '100' has been set to element 'Object Repository/Velocity Mobile/XCUIElementTypeTextField - 0 (1)'
+
+2021-05-03 11:00:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (91)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (91)'
+
+2021-05-03 11:00:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:00:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (91)'
+
+2021-05-03 11:00:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeStaticText - I want to SELL (1)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeStaticText - I want to SELL (1)'
+
+2021-05-03 11:00:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:00:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeStaticText - I want to SELL (1)'
+
+2021-05-03 11:00:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeTextField - 0 (1)"), "100", 0): Text '100' has been set to element 'Object Repository/Velocity Mobile/XCUIElementTypeTextField - 0 (1)'
+
+2021-05-03 11:00:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:00:52 - [MESSAGE][PASSED] - Text '100' has been set to element 'Object Repository/Velocity Mobile/XCUIElementTypeTextField - 0 (1)'
+
+2021-05-03 11:00:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (91)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (91)'
+
+2021-05-03 11:00:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:00:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (91)'
+
+2021-05-03 11:00:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeWindow (121)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeWindow (121)'
+
+2021-05-03 11:00:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:00:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeWindow (121)'
+
+2021-05-03 11:00:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-03 11:00:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-03 11:00:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeOther (29)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeOther (29)'
+
+2021-05-03 11:00:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:00:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeOther (29)'
+
+2021-05-03 11:00:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-03 11:01:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-03 11:01:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeButton - SELL"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeButton - SELL'
+
+2021-05-03 11:01:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:01:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeButton - SELL'
+
+2021-05-03 11:01:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeButton - CALCULATE (3)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeButton - CALCULATE (3)'
+
+2021-05-03 11:01:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:01:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeButton - CALCULATE (3)'
+
+2021-05-03 11:01:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeTextField - 0 (1)"), "100", 0): Text '100' has been set to element 'Object Repository/Velocity Mobile/XCUIElementTypeTextField - 0 (1)'
+
+2021-05-03 11:01:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:01:05 - [MESSAGE][PASSED] - Text '100' has been set to element 'Object Repository/Velocity Mobile/XCUIElementTypeTextField - 0 (1)'
+
+2021-05-03 11:01:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeButton - I want to SELL (1)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeButton - I want to SELL (1)'
+
+2021-05-03 11:01:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:01:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeButton - I want to SELL (1)'
+
+2021-05-03 11:01:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeTextField - 0 (1)"), "100", 0): Text '100' has been set to element 'Object Repository/Velocity Mobile/XCUIElementTypeTextField - 0 (1)'
+
+2021-05-03 11:01:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:01:08 - [MESSAGE][PASSED] - Text '100' has been set to element 'Object Repository/Velocity Mobile/XCUIElementTypeTextField - 0 (1)'
+
+2021-05-03 11:01:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (91)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (91)'
+
+2021-05-03 11:01:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:01:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (91)'
+
+2021-05-03 11:01:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeWindow (121)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeWindow (121)'
+
+2021-05-03 11:01:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:01:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeWindow (121)'
+
+2021-05-03 11:01:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-03 11:01:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-03 11:01:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeOther (29)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeOther (29)'
+
+2021-05-03 11:01:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:01:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeOther (29)'
+
+2021-05-03 11:01:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeOther (29)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeOther (29)'
+
+2021-05-03 11:01:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:01:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeOther (29)'
+
+2021-05-03 11:01:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Velocity Mobile/XCUIElementTypeOther (29)"), 0): Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeOther (29)'
+
+2021-05-03 11:01:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-05-03 11:01:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Velocity Mobile/XCUIElementTypeOther (29)'
+
+2021-05-03 11:01:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-05-03 11:01:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-05-03 11:01:21 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2021-05-03 11:01:22 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-05-03 10:59:39 - [TEST_SUITE][PASSED] - Test Suites All Transaksi: Test Cases/Landing Page/Exchange Rate - Telegraphic Transfer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

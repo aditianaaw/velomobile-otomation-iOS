@@ -23,7 +23,8 @@ Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeImag
 
 Mobile.delay(5)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Transactions (4)'), 0)
+//Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Transactions (4)'), 0)
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton (23)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Fund Transfer (2)'), 0)
 
@@ -89,10 +90,6 @@ Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementType
 	'INDONESIA', 0)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeCell (22)'), 0)
-
-//Mobile.scrollToText('Choose Purpose')
-//
-//Mobile.scrollToText('Choose Purpose')
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeTextField - Choose Purpose'), 0)
 

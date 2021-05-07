@@ -15,22 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-/*
-Mobile.startApplication('/Users/admin2/Downloads/Velocity_bandung_uat (5).ipa', false)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - Not Now (41)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - LOGIN (82)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSecureTextField - Input Password (42)'),
-	'123456789012', 0)
-
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (52)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - LOGIN (83)'), 0)
-
-Mobile.delay(15)
-*/
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeWindow (45)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeImage (61)'), 0)
@@ -42,7 +27,6 @@ Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStat
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Fund Transfer (2)'), 0)
 
 Mobile.delay(10)
-
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Domestic Transfer (1)'), 0)
 
@@ -62,27 +46,27 @@ Mobile.delay(10)
 
 Mobile.delay(5)
 
-Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSearchField - Type here to search (13)'), 
-    GlobalVariable.G_Debit, 0)
+Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSearchField - Type here to search (13)'),
+	GlobalVariable.G_Debit, 0)
 
 Mobile.delay(5)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeCell (16)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Select Destination Account (3)'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Select Destination Account (3)'),
+	0)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeWindow (97)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Transfer to a new beneficiary (3)'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Transfer to a new beneficiary (3)'),
+	0)
 
 Mobile.delay(5)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeWindow (96)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSearchField - Type here to search (18)'), 
-    'BANK CENTRAL ASIA', 0)
+Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSearchField - Type here to search (18)'),
+	GlobalVariable.G_LLG_BCredit, 0)
 
 Mobile.delay(5)
 
@@ -90,12 +74,10 @@ Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeWind
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeCell (15)'), 0)
 
-//Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - BANK CENTRAL ASIA (2)'), 0)
-
 Mobile.delay(5)
 
-Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSearchField - Type here to search (19)'), 
-    'MALANG', 0)
+Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSearchField - Type here to search (19)'),
+	GlobalVariable.G_LLG_BCabang, 0)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeCell (17)'), 0)
 
@@ -103,8 +85,8 @@ Mobile.delay(5)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - CONFIRM (4)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeTextField - Input Account Number (2)'), 
-    '123123123', 0)
+Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeTextField - Input Account Number (2)'),
+	GlobalVariable.G_LLG_Credit, 0)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (77)'), 0)
 
@@ -166,29 +148,6 @@ Mobile.delay(7)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - CONTINUE (12)'), 0)
 
-/*
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeWindow (58)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeTextField (1)'), '135135', 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - DONE (64)'), 0)
-
-*/
-
-//Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeWindow (45)'), 0)
-
-//Mobile.delay(5)
-
-//Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - CONTINUE (2)'), 0)
-
 Mobile.delay(5)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - CONTINUE (2)'), 0)
@@ -203,7 +162,7 @@ Mobile.delay(10)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeWindow (45)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeOther (19)'), '135135', 0)
+Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeOther (19)'), GlobalVariable.G_SWToken, 0)
 
 Mobile.delay(10)
 

@@ -24,15 +24,20 @@ Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButt
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSecureTextField - Input Password (24)'), 0)
 
-Mobile.setText(findTestObject(''), 'Testing1', 0)
+Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeSecureTextField - Input Password (9)'), 
+    'Testing1', 0)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (26)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton - LOGIN (50)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeWindow (24)'), 0)
+Mobile.delay(25)
+
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeWindow (129)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeOther (15)'), 0)
+
+Mobile.delay(15)
 
 Mobile.closeApplication()
 

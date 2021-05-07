@@ -22,7 +22,8 @@ Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeImag
 
 Mobile.delay(15)
 
-Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Transactions (4)'), 0)
+//Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Transactions (4)'), 0)
+Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton (23)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Fund Transfer (2)'), 0)
 
@@ -51,7 +52,6 @@ Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementType
 
 Mobile.delay(5)
 
-//Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeStaticText - FREDY IRAWAN  S Komp (9)'), 0)
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeCell (16)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeButton (22)'), 0)

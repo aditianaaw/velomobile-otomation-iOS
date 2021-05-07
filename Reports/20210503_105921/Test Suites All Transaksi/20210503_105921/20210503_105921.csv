@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suites All Transaksi,,,,2021-05-03 10:59:39,2021-05-03 11:01:22,1m - 42.807s,PASSED
+,,,,,,,
+Test Cases/Landing Page/Exchange Rate - Telegraphic Transfer,,,,2021-05-03 10:59:39,2021-05-03 11:01:22,1m - 42.672s,PASSED
+"startApplication(""/Users/admin2/Downloads/Velocity Mobile (2).ipa"", true)",,,,2021-05-03 10:59:40,2021-05-03 11:00:32,52.218s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeButton - Not Now (59)""), 0)",,,,2021-05-03 11:00:32,2021-05-03 11:00:33,1.491s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Exchange Rate (3)""), 0)",,,,2021-05-03 11:00:33,2021-05-03 11:00:34,0.852s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeWindow (121)""), 0)",,,,2021-05-03 11:00:34,2021-05-03 11:00:35,1.114s,PASSED
+delay(5),,,,2021-05-03 11:00:35,2021-05-03 11:00:40,5.015s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeStaticText - Telegraphic Transfer (5)""), 0)",,,,2021-05-03 11:00:40,2021-05-03 11:00:41,0.744s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeWindow (121)""), 0)",,,,2021-05-03 11:00:41,2021-05-03 11:00:42,0.853s,PASSED
+delay(3),,,,2021-05-03 11:00:42,2021-05-03 11:00:45,3.006s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeButton - CALCULATE (3)""), 0)",,,,2021-05-03 11:00:45,2021-05-03 11:00:46,1.355s,PASSED
+"setText(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeTextField - 0 (1)""), ""100"", 0)",,,,2021-05-03 11:00:46,2021-05-03 11:00:48,1.654s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (91)""), 0)",,,,2021-05-03 11:00:48,2021-05-03 11:00:49,1.323s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeStaticText - I want to SELL (1)""), 0)",,,,2021-05-03 11:00:49,2021-05-03 11:00:50,0.736s,PASSED
+"setText(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeTextField - 0 (1)""), ""100"", 0)",,,,2021-05-03 11:00:50,2021-05-03 11:00:52,1.609s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (91)""), 0)",,,,2021-05-03 11:00:52,2021-05-03 11:00:53,1.283s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeWindow (121)""), 0)",,,,2021-05-03 11:00:53,2021-05-03 11:00:54,0.968s,PASSED
+delay(3),,,,2021-05-03 11:00:54,2021-05-03 11:00:57,3.003s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeOther (29)""), 0)",,,,2021-05-03 11:00:57,2021-05-03 11:00:58,1.471s,PASSED
+delay(3),,,,2021-05-03 11:00:58,2021-05-03 11:01:01,3.003s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeButton - SELL""), 0)",,,,2021-05-03 11:01:01,2021-05-03 11:01:02,1.024s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeButton - CALCULATE (3)""), 0)",,,,2021-05-03 11:01:02,2021-05-03 11:01:04,1.322s,PASSED
+"setText(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeTextField - 0 (1)""), ""100"", 0)",,,,2021-05-03 11:01:04,2021-05-03 11:01:05,1.690s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeButton - I want to SELL (1)""), 0)",,,,2021-05-03 11:01:05,2021-05-03 11:01:06,0.922s,PASSED
+"setText(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeTextField - 0 (1)""), ""100"", 0)",,,,2021-05-03 11:01:06,2021-05-03 11:01:08,1.785s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeButton - Done (91)""), 0)",,,,2021-05-03 11:01:08,2021-05-03 11:01:09,1.288s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeWindow (121)""), 0)",,,,2021-05-03 11:01:09,2021-05-03 11:01:10,0.944s,PASSED
+delay(3),,,,2021-05-03 11:01:10,2021-05-03 11:01:13,3.002s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeOther (29)""), 0)",,,,2021-05-03 11:01:13,2021-05-03 11:01:15,1.419s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeOther (29)""), 0)",,,,2021-05-03 11:01:15,2021-05-03 11:01:17,2.030s,PASSED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeOther (29)""), 0)",,,,2021-05-03 11:01:17,2021-05-03 11:01:18,1.296s,PASSED
+delay(3),,,,2021-05-03 11:01:18,2021-05-03 11:01:21,3.002s,PASSED
+closeApplication(),,,,2021-05-03 11:01:21,2021-05-03 11:01:22,1.051s,PASSED

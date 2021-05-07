@@ -1626,9 +1626,7 @@ Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Rep
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2021-02-07T21:56:02</date>
   <millis>1612709762502</millis>

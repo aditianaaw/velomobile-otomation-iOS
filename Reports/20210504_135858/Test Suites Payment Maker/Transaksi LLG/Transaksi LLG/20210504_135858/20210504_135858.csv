@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Transaksi LLG,,,,2021-05-04 13:59:02,2021-05-04 13:59:03,0.513s,FAILED
+,,,,,,,
+Test Cases/Menu - Transaction/PaymentMaker/Case/Fund Transfer/Domestic Transfer/Test Automation LLG IDR - IDR Weekly,,,,2021-05-04 13:59:02,2021-05-04 13:59:03,0.363s,FAILED
+"tap(findTestObject(""Object Repository/Velocity Mobile/XCUIElementTypeWindow (45)""), 0)",,,,2021-05-04 13:59:03,2021-05-04 13:59:03,0.137s,PASSED

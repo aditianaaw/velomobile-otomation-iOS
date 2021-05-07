@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Transaksi LLG,,,,2021-05-05 10:09:33,2021-05-05 10:11:41,2m - 7.459s,FAILED
+,,,,,,,
+Test Cases/Menu - Transaction/SGL ACC/Scenario/Fund Transfer/Domestic Transfer/Test Automation LLG IDR - IDR Weekly,,,,2021-05-05 10:09:33,2021-05-05 10:11:41,2m - 7.329s,FAILED
+"callTestCase(findTestCase(""Login/Test Automation Login Existing""), [:], STOP_ON_FAILURE)",,,,2021-05-05 10:09:34,2021-05-05 10:10:48,1m - 14.717s,PASSED
+"callTestCase(findTestCase(""Menu - Transaction/SGL ACC/Case/Fund Transfer/Domestic Transfer/Test Automation LLG IDR - IDR Weekly""), [:], STOP_ON_FAILURE)",,,,2021-05-05 10:10:48,2021-05-05 10:11:41,52.482s,FAILED

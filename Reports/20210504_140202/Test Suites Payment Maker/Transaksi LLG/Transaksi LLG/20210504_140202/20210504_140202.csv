@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Transaksi LLG,,,,2021-05-04 14:02:06,2021-05-04 14:07:17,5m - 10.727s,PASSED
+,,,,,,,
+Test Cases/Menu - Transaction/PaymentMaker/Scenario/Fund Transfer/Domestic Transfer/Test Automation LLG IDR - IDR Monthly,,,,2021-05-04 14:02:06,2021-05-04 14:07:17,5m - 10.583s,PASSED
+"callTestCase(findTestCase(""Login/Test Automation Login Existing""), [:], STOP_ON_FAILURE)",,,,2021-05-04 14:02:06,2021-05-04 14:02:54,48.185s,PASSED
+"callTestCase(findTestCase(""Menu - Transaction/PaymentMaker/Case/Fund Transfer/Domestic Transfer/Test Automation LLG IDR - IDR Monthly""), [:], STOP_ON_FAILURE)",,,,2021-05-04 14:02:54,2021-05-04 14:06:59,4m - 4.390s,PASSED
+"callTestCase(findTestCase(""Login/Test Automation LogOut""), [:], STOP_ON_FAILURE)",,,,2021-05-04 14:06:59,2021-05-04 14:07:17,17.873s,PASSED

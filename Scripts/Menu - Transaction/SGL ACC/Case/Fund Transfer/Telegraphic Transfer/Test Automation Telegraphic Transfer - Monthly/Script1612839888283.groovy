@@ -161,7 +161,7 @@ Mobile.delay(5)
 
 Mobile.tap(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeWindow (45)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeOther (19)'), '135135', 0)
+Mobile.setText(findTestObject('Object Repository/Velocity Mobile/XCUIElementTypeOther (19)'), GlobalVariable.G_SWToken, 0)
 
 Mobile.delay(5)
 

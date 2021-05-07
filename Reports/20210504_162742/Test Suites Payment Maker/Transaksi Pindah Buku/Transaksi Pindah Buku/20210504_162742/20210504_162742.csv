@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Transaksi Pindah Buku,,,,2021-05-04 16:27:46,2021-05-04 16:31:37,3m - 50.545s,FAILED
+,,,,,,,
+Test Cases/Menu - Transaction/PaymentMaker/Scenario/Fund Transfer/OCBC NISP Fund Transfer/Test Automation IFT IDR - IDR,,,,2021-05-04 16:27:46,2021-05-04 16:31:37,3m - 50.397s,FAILED
+"callTestCase(findTestCase(""Login/Test Automation Login Existing""), [:], STOP_ON_FAILURE)",,,,2021-05-04 16:27:46,2021-05-04 16:28:42,56.008s,PASSED
+"callTestCase(findTestCase(""Menu - Transaction/PaymentMaker/Case/Fund Transfer/OCBC NISP Fund Transfer/Test Automation IFT IDR - IDR""), [:], STOP_ON_FAILURE)",,,,2021-05-04 16:28:42,2021-05-04 16:31:37,2m - 54.254s,FAILED

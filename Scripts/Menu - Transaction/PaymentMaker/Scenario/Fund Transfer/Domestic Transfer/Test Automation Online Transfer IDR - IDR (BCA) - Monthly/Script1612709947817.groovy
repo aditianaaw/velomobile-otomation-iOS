@@ -17,7 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Login/Test Automation Login Existing'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('null'), 
+WebUI.callTestCase(findTestCase('Menu - Transaction/PaymentMaker/Case/Fund Transfer/Domestic Transfer/Test Automation Online Transfer IDR - IDR (BCA) - Monthly'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Login/Test Automation LogOut'), [:], FailureHandling.STOP_ON_FAILURE)
+
